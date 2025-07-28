@@ -36,4 +36,10 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// Handle 404 errors
+app.use(function(req, res) {
+  res.status(404);
+  res.render('error');
+});
+
 module.exports = app; 

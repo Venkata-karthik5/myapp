@@ -1,0 +1,112 @@
+/* Import Bootstrap CSS */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Custom styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Home page specific styles */
+.home-page {
+  background-color: #20B2AA; /* Teal background */
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.home-page .container {
+  padding: 0;
+  max-width: 100%;
+}
+
+/* Cursive font for Home title */
+.home-title {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3.5rem;
+  color: #FFB6C1; /* Light pink color */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+  
+  .home-subtitle {
+    font-size: 1rem;
+  }
+  
+  .home-page {
+    padding: 20px;
+  }
+}
+
+/* Hide navigation on home page to match screenshot */
+.home-page .navbar {
+  display: none;
+}
+
+.home-page .footer {
+  display: none;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Page content styles */
+.page-content {
+  padding: 40px 0;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+/* Form styles */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card styles */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+} 
